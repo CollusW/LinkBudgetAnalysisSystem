@@ -1,0 +1,34 @@
+天线方向图独立验证报告
+频率设置: 4.950 GHz
+
+说明：本脚本只验证方向图本身，不运行完整链路预算。
+Rx 地面方向图：Theta=0° 按天顶方向理解，Theta=-90~90° 按上半球覆盖角域统计。
+Tx 弹载方向图：Phi=270°,Theta=90° 按弹头；Phi=90°,Theta=90° 按弹尾。
+
+Tx 方向图文件: D:\ly\desk\天线链路版本\LinkSimulation_MATLAB_Pro2\LinkSimulation_MATLAB_Pro2\LinkSimulation_MATLAB_Pro\input\tx_antenna_pattern.csv
+Tx Phi/Az 范围: 0.000 ~ 360.000 deg
+Tx Theta 范围: 0.000 ~ 180.000 deg
+Tx Gain 范围: -29.418 ~ 4.216 dBi
+
+Rx 方向图文件: D:\ly\desk\天线链路版本\LinkSimulation_MATLAB_Pro2\LinkSimulation_MATLAB_Pro2\LinkSimulation_MATLAB_Pro\input\rx_antenna_pattern.csv
+Rx Phi/Az 范围: 0.000 ~ 360.000 deg
+Rx Theta 范围: -90.000 ~ 90.000 deg
+Rx Gain 范围: -2.087 ~ 2.062 dBi
+
+--- Tx 弹载天线关键方向增益 ---
+弹头方向 head: Phi=270.0 deg, Theta=90.0 deg, Gain=1.150 dBi
+弹尾方向 tail: Phi=90.0 deg, Theta=90.0 deg, Gain=-0.665 dBi
+侧面方向 side-0: Phi=0.0 deg, Theta=90.0 deg, Gain=-2.875 dBi
+侧面方向 side-180: Phi=180.0 deg, Theta=90.0 deg, Gain=-2.912 dBi
+Z轴/主辐射方向 top: Phi=0.0 deg, Theta=0.0 deg, Gain=3.761 dBi
+
+--- Tx 弹尾 ±15° 区域增益统计 ---
+弹尾 ±15° 区域 Gain min/mean/max = -1.307 / -0.557 / 0.582 dBi
+说明：是否满足“弹尾 ±15° 大于 5 dBi”，需结合老师最终指标与坐标定义判定。
+
+--- Rx 地面天线上半球覆盖统计 ---
+Rx 覆盖角域 Theta=-90~90 Gain min/mean/max = -2.087 / 1.029 / 2.062 dBi
+Rx 覆盖角域 Gain > -1 dBi 占比 = 97.48 %
+Rx 天顶方向 Theta=0 Gain min/mean/max = 0.887 / 0.887 / 0.887 dBi
+Rx 水平边缘 Theta=±90 Gain min/mean/max = -2.087 / -1.355 / -0.637 dBi
+

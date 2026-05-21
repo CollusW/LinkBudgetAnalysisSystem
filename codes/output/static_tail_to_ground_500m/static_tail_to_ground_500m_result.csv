@@ -1,0 +1,2 @@
+distance_m,tx_phi_deg,tx_theta_deg,rx_phi_deg,rx_theta_deg,Gt_dBi,Gr_dBi,Gtotal_actual_dBi,frequency_GHz,Pt_dBm,Sens_dBm,L_other_dB,Lfs_dB,Pr_dBm,Margin_dB,Margin_target_dB,Margin_to_target_dB,G_total_required_dBi
+500,90,90,0,0,-0.664829,0.886861022469227,0.222032022469227,4.95,20,-90,0,100.319287287275,-80.0972552648059,9.90274473519409,3,6.90274473519409,-6.68071271272487
